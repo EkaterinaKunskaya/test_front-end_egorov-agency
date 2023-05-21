@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/test_front-end_egorov-agency/static/css/main.a8cb44e7.css",
+    "main.js": "/test_front-end_egorov-agency/static/js/main.c177e99f.js",
+    "static/js/787.d30e2bc2.chunk.js": "/test_front-end_egorov-agency/static/js/787.d30e2bc2.chunk.js",
+    "static/media/poppins-v20-latin-regular.svg": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-regular.04277a799cb3f1b29dfa.svg",
+    "static/media/poppins-v20-latin-700.svg": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-700.faf69e7f589ee957de53.svg",
+    "static/media/roboto-v30-latin-regular.svg": "/test_front-end_egorov-agency/static/media/roboto-v30-latin-regular.4f862c8ba4ed785461ee.svg",
+    "static/media/roboto-v30-latin-regular.ttf": "/test_front-end_egorov-agency/static/media/roboto-v30-latin-regular.6b1ef4e4ab8eafee13c1.ttf",
+    "static/media/roboto-v30-latin-regular.woff": "/test_front-end_egorov-agency/static/media/roboto-v30-latin-regular.f1e2a76794cb86b2aa8e.woff",
+    "static/media/roboto-v30-latin-regular.eot": "/test_front-end_egorov-agency/static/media/roboto-v30-latin-regular.e2f36b803fec4bdcd1bc.eot",
+    "static/media/poppins-v20-latin-regular.ttf": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-regular.80946c0880373b223d9c.ttf",
+    "static/media/poppins-v20-latin-700.ttf": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-700.69376764e54ecb0c5b5b.ttf",
+    "static/media/element-left.png": "/test_front-end_egorov-agency/static/media/element-left.ab2083e1d445ad7c649d.png",
+    "static/media/roboto-v30-latin-regular.woff2": "/test_front-end_egorov-agency/static/media/roboto-v30-latin-regular.b009a76ad6afe4ebd301.woff2",
+    "static/media/poppins-v20-latin-regular.woff": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-regular.f61407da33b59324fbef.woff",
+    "static/media/poppins-v20-latin-700.woff": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-700.c54a52658bf21b37083d.woff",
+    "static/media/poppins-v20-latin-regular.eot": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-regular.27a38aa36ed539d2b33f.eot",
+    "static/media/poppins-v20-latin-700.eot": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-700.f808204601ecdcaf5c4d.eot",
+    "static/media/poppins-v20-latin-regular.woff2": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-regular.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-v20-latin-700.woff2": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-700.d86662fe776dae29ea78.woff2",
+    "static/media/logo.svg": "/test_front-end_egorov-agency/static/media/logo.4c1293b1f2e57390857ee24f91f94b61.svg",
+    "static/media/cross.svg": "/test_front-end_egorov-agency/static/media/cross.51db4c1f230d10f8c6579e47cb1ca1a1.svg",
+    "index.html": "/test_front-end_egorov-agency/index.html",
+    "static/media/element-timer.svg": "/test_front-end_egorov-agency/static/media/element-timer.881c965e4d9f6f59075e.svg",
+    "static/media/element-timer-tablet.svg": "/test_front-end_egorov-agency/static/media/element-timer-tablet.653d6a9f536df1ed49c4.svg",
+    "static/media/arrow.svg": "/test_front-end_egorov-agency/static/media/arrow.a6e75fccc7be500982e5a4f5250e1d55.svg",
+    "static/media/arrow-down.svg": "/test_front-end_egorov-agency/static/media/arrow-down.bb06f3784b937a1d25e3.svg",
+    "main.a8cb44e7.css.map": "/test_front-end_egorov-agency/static/css/main.a8cb44e7.css.map",
+    "main.c177e99f.js.map": "/test_front-end_egorov-agency/static/js/main.c177e99f.js.map",
+    "787.d30e2bc2.chunk.js.map": "/test_front-end_egorov-agency/static/js/787.d30e2bc2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8cb44e7.css",
+    "static/js/main.c177e99f.js"
+  ]
+}
