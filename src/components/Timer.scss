@@ -1,0 +1,111 @@
+@import '../styles/colors.scss';
+@import '../styles/media.scss';
+@import '../styles/mixins.scss';
+
+.timer {
+    @include flex(column, center, center);
+    position: absolute;
+    top: 40%;
+    margin-top: 0;
+    animation: showTimer 4s;
+
+    @include small-screens {
+        top: 50%;
+    }
+
+    @include mobile {
+        top: 54%;
+    }
+
+    .timer__items {
+        display: flex;
+
+        
+
+        .timer__item {
+            position: relative;
+            width: 100px;
+            margin-right: 40px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 4.5rem;
+            line-height: 100%;
+            color: $timer;
+
+            @include tablets {
+                width: 55px;
+                font-size: 2.2rem;
+            }
+
+            
+
+            @include mobile {
+                width: 50px;
+                
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &::before {
+                content: attr(data-title);
+                width: 132px;
+                display: block;
+                position: absolute;
+                left: 50%;
+                bottom: -45%;
+                transform: translateX(-50%);
+                background: url(../assets/images/element-timer.svg) no-repeat;
+                background-position: center;
+                font-size: 1rem;
+                font-weight: 400;
+                color: #fff;
+
+                @include tablets {
+                    content: attr(data-title-tablet);
+                    background: url(../assets/images/element-timer-tablet.svg) no-repeat;
+                    font-size: .75rem;
+                    width: 70px;
+                    bottom: -35%;
+                
+                }
+
+                @include mobile {
+                    width: 70px;
+                }
+            }
+
+            &:not(:last-child)::after {
+                content: ':';
+                position: absolute;
+                right: -32px;
+
+                @include mobile {
+                    right: -25px;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+@keyframes showTimer {
+    from {
+        opacity: 0;
+        margin-top: -100px;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}

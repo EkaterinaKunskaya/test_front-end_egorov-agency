@@ -1,0 +1,204 @@
+@import './styles/fonts.scss';
+@import './styles/colors.scss';
+@import './styles/media.scss';
+@import './styles/mixins.scss';
+
+
+#root {
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    
+
+    .element-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25%;
+        height: 45%;
+        background: url('./assets/images/element-left.png') no-repeat;
+        background-size: 100% 88%;
+        animation: showLeft 1.3s;
+
+        @include mobile {
+            background: url('./assets/images/element-left-mobile.png') no-repeat;
+            width: 48%;
+        }
+    }
+
+    .element-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 25%;
+        height: 45%;
+        background: url('./assets/images/element-right.png') no-repeat;
+        background-size: 100% 88%;
+        animation: showRight 1.3s;
+
+        @include mobile {
+            background: url('./assets/images/element-right-mobile.png') no-repeat;
+            width: 32%;
+        }
+
+        @include small-mobile {
+            width: 50%;
+        }
+    }
+
+    .content {
+        @include flex(column, space-between, center);
+        position: relative;
+        padding-top: 60px;
+        flex: 1 0 auto;
+        height: 80%;
+
+        @include mobile {
+            padding-top: 80px;    
+        }
+    
+        .logo {
+            position: absolute;
+            left: 45%;
+            animation: showItems 1.3s;
+
+            @include small-screens {
+                left: 40%;
+            }
+
+            @include tablets {
+                left: 36%;
+            }
+
+            @include mobile {
+                width: 128px;
+                left: 33%;
+            }
+        }
+    
+        .section-title-text {
+            @include flex(column, center, center);
+            position: absolute;
+            top: 20%;
+            animation: showItems 3s;
+
+            @include small-screens {
+                top: 30%;
+            }
+
+            @include mobile {
+                top: 28%;
+            }
+            
+            .title {
+                font-weight: 700;
+                font-size: 4.5rem;
+                line-height: 104%;
+                text-align: center;
+                text-transform: uppercase;
+                color: $title;
+
+                @include small-screens {
+                    font-size: 3rem;
+                }
+
+                @include tablets {
+                    font-size: 2.25rem;
+                }
+
+                @include mobile {
+                    padding-bottom: 16px;
+                }
+            }
+
+            .text {    
+                @include tablets {
+                    width: 286px;
+                }
+
+                @include mobile {
+                    
+                }
+                
+            }
+        
+        }
+    
+    
+        .section-btn-text {
+            @include flex(column, center, center);
+            position: absolute;
+            top: 70%;
+            animation: showItems 2s;
+        }
+    
+        .text {
+            
+            font-size: 1.125rem;
+            line-height: 150%;
+            text-align: center;
+            color: $text;
+            margin-bottom: 12px;
+
+            @include tablets {
+                font-size: 1rem;
+            }
+
+            @include mobile {
+                
+            }
+            
+        }
+        
+    
+    }
+
+
+}
+
+.button-main {
+    @include flex(row, space-around, center);
+    @include button(240px, 60px, $main-btn_background, 40px, pointer);
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 1.125rem;
+    color: #FFFFFF;
+}
+
+
+@keyframes showLeft {
+    from {
+        top: -100%;
+        left:-100%;
+    }
+    to {
+        top: 0;
+        left:0;
+    }
+}
+
+@keyframes showRight {
+    from {
+        top: -100%;
+        right:-100%;
+    }
+    to {
+        top: 0;
+        right:0;
+    }
+}
+
+
+@keyframes showItems {
+    from {
+        opacity: 0;
+        margin-top: -100px;
+    } 
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}

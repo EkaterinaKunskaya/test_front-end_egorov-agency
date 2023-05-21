@@ -1,0 +1,15 @@
+@mixin flex($direction, $justify-content, $align-items) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content:$justify-content;
+    align-items: $align-items;
+}
+
+@mixin button($width, $height, $background:none, $radius: 0, $cursor){
+	border: none;
+	width:$width;
+	height:$height;
+	background-color:$background;
+	border-radius:$radius;
+	cursor: $cursor;
+}
