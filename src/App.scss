@@ -12,7 +12,6 @@
     width: 100%;
     height: 100%;
     
-
     .element-left {
         position: absolute;
         top: 0;
@@ -21,7 +20,7 @@
         height: 45%;
         background: url('./assets/images/element-left.png') no-repeat;
         background-size: 100% 88%;
-        animation: showLeft 1.3s;
+        animation: showLeft 2s;
 
         @include mobile {
             background: url('./assets/images/element-left-mobile.png') no-repeat;
@@ -37,7 +36,7 @@
         height: 45%;
         background: url('./assets/images/element-right.png') no-repeat;
         background-size: 100% 88%;
-        animation: showRight 1.3s;
+        animation: showRight 2s;
 
         @include mobile {
             background: url('./assets/images/element-right-mobile.png') no-repeat;
@@ -51,9 +50,9 @@
 
     .content {
         @include flex(column, space-between, center);
+        flex: 1 0 auto;
         position: relative;
         padding-top: 60px;
-        flex: 1 0 auto;
         height: 80%;
 
         @include mobile {
@@ -63,7 +62,7 @@
         .logo {
             position: absolute;
             left: 45%;
-            animation: showItems 1.3s;
+            animation: showItems 2s;
 
             @include small-screens {
                 left: 40%;
@@ -83,7 +82,11 @@
             @include flex(column, center, center);
             position: absolute;
             top: 20%;
-            animation: showItems 3s;
+            animation: showItems 2.3s;
+
+            @include large-screens {
+                top: 24%;
+            }
 
             @include small-screens {
                 top: 30%;
@@ -101,8 +104,16 @@
                 text-transform: uppercase;
                 color: $title;
 
-                @include small-screens {
+                @include large-screens {
                     font-size: 3rem;
+                }
+
+                @include midle-screens {
+                    font-size: 2.8rem;
+                }
+
+                @include small-screens {
+                    font-size: 2.5rem;
                 }
 
                 @include tablets {
@@ -114,29 +125,27 @@
                 }
             }
 
-            .text {    
+            .text {
                 @include tablets {
                     width: 286px;
                 }
-
-                @include mobile {
-                    
-                }
-                
             }
         
         }
-    
     
         .section-btn-text {
             @include flex(column, center, center);
             position: absolute;
             top: 70%;
             animation: showItems 2s;
+
+            @include mobile {
+                top: 75%;
+            }
         }
     
         .text {
-            
+            width: 420px;
             font-size: 1.125rem;
             line-height: 150%;
             text-align: center;
@@ -148,15 +157,10 @@
             }
 
             @include mobile {
-                
+                width: 360px;
             }
-            
         }
-        
-    
     }
-
-
 }
 
 .button-main {
@@ -167,7 +171,6 @@
     font-size: 1.125rem;
     color: #FFFFFF;
 }
-
 
 @keyframes showLeft {
     from {
@@ -190,7 +193,6 @@
         right:0;
     }
 }
-
 
 @keyframes showItems {
     from {

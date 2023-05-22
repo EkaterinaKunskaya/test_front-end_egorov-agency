@@ -2,6 +2,7 @@
 @import '../styles/mixins.scss';
 @import '../App.scss';
 
+
 .modal__wrapper {
     position: fixed;
     left: 0;
@@ -12,6 +13,10 @@
     backdrop-filter: blur(2px);
     z-index: 2;
     padding: 10%;
+
+    @include mobile {
+        padding: 20% 1%;
+    }
 
     &.open {
         display: block;

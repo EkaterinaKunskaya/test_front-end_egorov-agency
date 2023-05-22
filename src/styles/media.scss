@@ -1,11 +1,18 @@
-$breakpoint_large-screens: 1200px;
+$breakpoint_large-screens: 1600px;
+$breakpoint_midle-screens: 1200px;
 $breakpoint_small-screens: 1024px;
-$breakpoint_tablets: 767px;
+$breakpoint_tablets: 768px;
 $breakpoint_mobile: 576px;
 $breakpoint_small-mobile: 360px;
 
 @mixin large-screens() {
     @media (max-width: $breakpoint_large-screens) {
+        @content;
+    }
+}
+
+@mixin midle-screens() {
+    @media (max-width: $breakpoint_midle-screens) {
         @content;
     }
 }

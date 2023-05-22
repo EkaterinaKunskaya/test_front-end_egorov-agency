@@ -2,25 +2,24 @@
 @import '../styles/media.scss';
 @import '../styles/mixins.scss';
 
+
 .timer {
     @include flex(column, center, center);
     position: absolute;
-    top: 40%;
+    top: 45%;
     margin-top: 0;
-    animation: showTimer 4s;
+    animation: showTimer 3s;
 
     @include small-screens {
         top: 50%;
     }
 
     @include mobile {
-        top: 54%;
+        top: 58%;
     }
 
     .timer__items {
         display: flex;
-
-        
 
         .timer__item {
             position: relative;
@@ -33,16 +32,25 @@
             line-height: 100%;
             color: $timer;
 
+            @include large-screens {
+                font-size: 3.5rem;
+            }
+
+            @include midle-screens {
+                font-size: 3rem;
+            }
+
+            @include small-screens {
+                font-size: 2.8rem;
+            }
+
             @include tablets {
                 width: 55px;
                 font-size: 2.2rem;
             }
 
-            
-
             @include mobile {
                 width: 50px;
-                
             }
 
             &:last-child {
@@ -69,7 +77,6 @@
                     font-size: .75rem;
                     width: 70px;
                     bottom: -35%;
-                
                 }
 
                 @include mobile {
@@ -87,16 +94,8 @@
                 }
             }
         }
-
     }
-
 }
-
-
-
-
-
-
 
 @keyframes showTimer {
     from {
