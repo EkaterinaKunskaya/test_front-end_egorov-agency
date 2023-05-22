@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test_front-end_egorov-agency/static/css/main.a8cb44e7.css",
+    "main.css": "/test_front-end_egorov-agency/static/css/main.2571b767.css",
     "main.js": "/test_front-end_egorov-agency/static/js/main.c177e99f.js",
     "static/js/787.d30e2bc2.chunk.js": "/test_front-end_egorov-agency/static/js/787.d30e2bc2.chunk.js",
     "static/media/poppins-v20-latin-regular.svg": "/test_front-end_egorov-agency/static/media/poppins-v20-latin-regular.04277a799cb3f1b29dfa.svg",
@@ -26,12 +26,12 @@
     "static/media/element-timer-tablet.svg": "/test_front-end_egorov-agency/static/media/element-timer-tablet.653d6a9f536df1ed49c4.svg",
     "static/media/arrow.svg": "/test_front-end_egorov-agency/static/media/arrow.a6e75fccc7be500982e5a4f5250e1d55.svg",
     "static/media/arrow-down.svg": "/test_front-end_egorov-agency/static/media/arrow-down.bb06f3784b937a1d25e3.svg",
-    "main.a8cb44e7.css.map": "/test_front-end_egorov-agency/static/css/main.a8cb44e7.css.map",
+    "main.2571b767.css.map": "/test_front-end_egorov-agency/static/css/main.2571b767.css.map",
     "main.c177e99f.js.map": "/test_front-end_egorov-agency/static/js/main.c177e99f.js.map",
     "787.d30e2bc2.chunk.js.map": "/test_front-end_egorov-agency/static/js/787.d30e2bc2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8cb44e7.css",
+    "static/css/main.2571b767.css",
     "static/js/main.c177e99f.js"
   ]
 }
